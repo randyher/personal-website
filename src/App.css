@@ -2,8 +2,11 @@ body {
   /* margin: 0; */
   padding: 0;
   background-color: #c0f4dd;
-  display: flex;
-  margin-top: 5rem;
+  margin-top: 1rem;
+}
+
+.app {
+  margin-top: 0;
 }
 
 .main {
@@ -11,9 +14,7 @@ body {
   flex-flow: column wrap;
   font-family: 'Jockey One', sans-serif;
   margin-left: 3rem;
-
 }
-
 
 h1 {
   font-size: 4em;
@@ -35,7 +36,7 @@ h2 {
 
 hr {
   margin-top: 4rem;
-  width: 40%;
+  width: 20%;
   justify-content: left;
   margin-left: 0;
   margin-right: 0;
@@ -48,10 +49,10 @@ a {
 }
 
 .icon {
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   margin: .5em;
-  margin-top: 3.5rem;
+  margin-top: 3rem;
   margin-left: 1rem;
   flex-direction: column;
   justify-content: flex-end;
@@ -63,4 +64,30 @@ a {
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
+}
+
+ul {
+  margin-top: 0%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #c0f4dd;
+  width: 100%;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
 }
