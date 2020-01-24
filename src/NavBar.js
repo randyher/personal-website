@@ -1,11 +1,14 @@
 import React from "react";
 
 function NavBar() {
+  const finalLi = {
+    "margin-right": "4rem"
+  };
   return (
     <div className="navbar">
       <ul>
         <li>
-          <a class="active" href="#home">
+          <a style={finalLi} href="#home">
             Home
           </a>
         </li>
