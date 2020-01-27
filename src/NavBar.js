@@ -6,19 +6,19 @@ function NavBar() {
   };
   return (
     <div className="navbar">
-      <ul>
-        <li>
+      <ul className="nav-ul">
+        <li className="nav-li">
           <a style={finalLi} href="#home">
-            Home
+            Contact
           </a>
         </li>
-        <li>
-          <a href="#news">News</a>
+        <li className="nav-li">
+          <a href="#news">Projects</a>
         </li>
-        <li>
-          <a href="#contact">Contact</a>
+        <li className="nav-li">
+          <a href="#experience">Work Experience</a>
         </li>
-        <li>
+        <li className="nav-li">
           <a href="#about">About</a>
         </li>
       </ul>

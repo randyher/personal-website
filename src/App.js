@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import NavBar from "./NavBar";
+import About from "./About";
 import github from "./github-logo.svg";
 import linkedin from "./linkedin-logo.png";
 
@@ -14,16 +15,17 @@ function App() {
         <h2>New York, NY</h2>
         <div className="icon-container">
           <hr></hr>
-          <a href="https://github.com/randyher">
-            <img className="icon" src={github} alt="github" />
-          </a>
-
           <a href="https://www.linkedin.com/in/randy-herasme-89822a9a/">
             <img className="icon" src={linkedin} alt="linkedin" />
+          </a>
+
+          <a href="https://github.com/randyher">
+            <img className="icon" src={github} alt="github" />
           </a>
         </div>
         <div className="icon-links"></div>
       </div>
+      <About />
     </div>
   );
 }
