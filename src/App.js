@@ -16,7 +16,7 @@ class App extends React.Component {
           <h2>New York, NY</h2>
           <div className="icon-container">
             <hr></hr>
-            <a href="https://www.linkedin.com/in/randy-herasme-89822a9a/">
+            <a href="https://www.linkedin.com/in/randy-herasme">
               <img className="icon" src={linkedin} alt="linkedin" />
             </a>
 

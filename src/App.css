@@ -21,9 +21,8 @@ body {
   margin-top: 40rem;
   align-items: center;
   justify-content: center;
-  flex-flow: column wrap;
-  
 }
+
 
 .about-text-container {
   margin-top: 1rem;
@@ -110,4 +109,10 @@ a {
 
 .nav-li a:hover {
   color: gray;
+}
+
+.portrait {
+  width: 210px;
+  height: 335px;
+  padding-left: 45px;
 }
