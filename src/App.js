@@ -5,6 +5,8 @@ import About from "./About";
 import Experience from "./Experience";
 import github from "./github-logo.svg";
 import linkedin from "./linkedin-logo.png";
+import resumeLogo from "./resume-logo.png";
+import resume from "./resume.pdf";
 
 class App extends React.Component {
   state = {
@@ -32,6 +34,10 @@ class App extends React.Component {
 
               <a href="https://github.com/randyher">
                 <img className="icon" src={github} alt="github" />
+              </a>
+
+              <a href={resume} target="_blank">
+                <img className="icon" src={resumeLogo} alt="github" />
               </a>
             </div>
             <div className="icon-links"></div>
