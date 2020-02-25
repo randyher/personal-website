@@ -18,21 +18,29 @@ body {
 
 .about {
   display: flex;
-  margin-top: 40rem;
-  align-items: center;
-  justify-content: center;
+  margin-left: 9rem;
+  margin-top: 3rem;
+  font-family: 'Jockey One', sans-serif;
+}
+
+.experience {
+  display: flex;
+  margin-left: 9rem;
+  margin-top: 3rem;
+  font-family: 'Jockey One', sans-serif;
 }
 
 
 .about-text-container {
   margin-top: 1rem;
-  width: 450px; 
-  font-size: 1em;
+  width: 520px; 
+  font-size: 1.5em;
 }
 
 .tech-list {
   width: 20rem;
   height: 5rem;
+  flex-flow: row wrap;
 }
 
 h1 {
@@ -112,7 +120,17 @@ a {
 }
 
 .portrait {
-  width: 210px;
-  height: 335px;
-  padding-left: 45px;
+  margin-top: 3rem;
+  width: 240px;
+  height: 350px;
+  margin-left: 6rem;
+  /* position: absolute; */
+  transition: filter .5s ease-in-out;
+  -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(100%); /* FF 35+ */
+}
+
+.portrait:hover {
+  -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(0%); /* FF 35+ */
 }
