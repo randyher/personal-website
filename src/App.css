@@ -23,6 +23,24 @@ body {
   font-family: 'Jockey One', sans-serif;
 }
 
+.about-text {
+  height: 35rem;
+  width: 38rem;
+  border: 5px solid black;
+  /* position: absolute; */
+  transition: filter .5s ease-in-out;
+  -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(100%); /* FF 35+ */
+  box-shadow:
+    20px -20px 0 -5px rgb(98, 243, 231),
+    20px -20px 0 0 black;
+}
+
+.about-text:hover {
+  -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(0%); /* FF 35+ */
+}
+
 .experience {
   display: flex;
   margin-left: 9rem;
@@ -33,6 +51,7 @@ body {
 
 .about-text-container {
   margin-top: 1rem;
+  margin-left: 1rem;
   width: 520px; 
   font-size: 1.5em;
 }
@@ -123,7 +142,7 @@ a {
   margin-top: 6rem;
   width: 240px;
   height: 350px;
-  margin-left: 6rem;
+  margin-left: 8rem;
   /* position: absolute; */
   transition: filter .5s ease-in-out;
   -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */

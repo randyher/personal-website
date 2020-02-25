@@ -4,8 +4,8 @@ class About extends React.Component {
   render() {
     return (
       <div className="about">
-        <div>
-          <h2>About</h2>
+        <div className="about-text">
+          <h2 style={{ "margin-left": "1rem", "margin-top": "1rem" }}>About</h2>
           <div className="about-text-container">
             Hey! I am Randy, a software engineer and educator from New York who
             is passionate about the journey and end-result of building web and
