@@ -15,14 +15,20 @@ function NavBar(props) {
         </li>
         <li onClick={() => props.onChange("projects")} className="nav-li">
           <a href="#project">Projects</a>
-        </li>
-        <li onClick={() => props.onChange("experience")} className="nav-li">
+        </li> */}
+        {/* <li
+          style={finalLi}
+          onClick={() => props.onChange("experience")}
+          className="nav-li"
+        >
           <a href="#experience">Work Experience</a>
         </li> */}
-        <li onClick={() => props.onChange("about")} className="nav-li">
-          <a style={finalLi} href="#about">
-            About
-          </a>
+        <li
+          onClick={() => props.onChange("about")}
+          style={finalLi}
+          className="nav-li"
+        >
+          <a href="#about">About</a>
         </li>
         <li onClick={() => props.onChange("default")} className="nav-li">
           <a href="#home">Home</a>

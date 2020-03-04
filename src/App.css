@@ -145,6 +145,8 @@ a {
   margin-left: 8rem;
   /* position: absolute; */
   transition: filter .5s ease-in-out;
+  border: 5px solid black;
+
   -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
   filter: grayscale(100%); /* FF 35+ */
   box-shadow:
@@ -155,4 +157,12 @@ a {
 .portrait:hover {
   -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
   filter: grayscale(0%); /* FF 35+ */
+}
+
+
+.experience-div {
+    
+  background-color: black;
+  border: 5px solid black;
+
 }
