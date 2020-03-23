@@ -24,8 +24,8 @@ body {
 }
 
 .about-text {
-  height: 35rem;
-  width: 38rem;
+  /* height: 35rem; */
+  /* width: 38rem; */
   border: 5px solid black;
   /* position: absolute; */
   transition: filter .5s ease-in-out;
@@ -50,15 +50,14 @@ body {
 
 
 .about-text-container {
-  margin-top: 1rem;
-  margin-left: 1rem;
-  width: 520px; 
-  font-size: 1.5em;
+  margin: 2rem;
+  /* width: 520px;  */
+  font-size: 100%
 }
 
 .tech-list {
-  width: 20rem;
-  height: 5rem;
+  /* width: 20rem; */
+  /* height: 5rem; */
   flex-flow: row wrap;
 }
 
@@ -140,6 +139,7 @@ a {
 }
 
 .portrait {
+  margin: 3rem;
   margin-top: 6rem;
   height: 350px;
   margin-left: 8rem;
