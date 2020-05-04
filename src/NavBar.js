@@ -23,7 +23,7 @@ function NavBar(props) {
         >
           <a href="#experience">Work Experience</a>
         </li> */}
-        <li
+        {/* <li
           onClick={() => props.onChange("about")}
           style={finalLi}
           className="nav-li"
@@ -32,7 +32,7 @@ function NavBar(props) {
         </li>
         <li onClick={() => props.onChange("default")} className="nav-li">
           <a href="#home">Home</a>
-        </li>
+        </li> */}
       </ul>
     </div>
   );
