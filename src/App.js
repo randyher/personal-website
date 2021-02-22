@@ -10,10 +10,10 @@ import resume from "./resume.pdf";
 
 class App extends React.Component {
   state = {
-    display: "default"
+    display: "default",
   };
 
-  onChange = display => {
+  onChange = (display) => {
     this.setState({ display });
   };
 
@@ -24,7 +24,7 @@ class App extends React.Component {
         {this.state.display === "default" && (
           <div className="main">
             <h1>Randy Herasme</h1>
-            <h2>Software Engineer</h2>
+            <h2>~ Software Engineer ~</h2>
             <h2>New York, NY</h2>
             <div className="icon-container">
               <hr></hr>
